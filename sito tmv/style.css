@@ -1,0 +1,137 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #191918;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    z-index: 111;
+    line-height: 80px;
+    background-color: #690766;
+}
+
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color:  #faf7f1;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+b{
+    font-size: 70px;
+    color: #b10aca;
+}
+.navItems {
+    display: flex;
+    
+}
+
+.navItems li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navItems li a {
+    font-size: 25px;
+    color: #faf7f1;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+.navItems li:hover a{
+    color: #b10aca;
+}
+
+.links a{
+    display: inline-flex;
+    margin: 25px 10px;
+    color: #faf7f1;
+}
+
+.links a:hover{
+    color: #b10aca;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    overflow: hidden;
+
+}
+
+.topline {
+    display: block;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #cdcadb;
+}
+
+.topline::after{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 45px;
+    bottom: 10px;
+    background-color: #b10aca;
+}
+
+h1{
+    display: block;
+    font-size: 7em;
+    font-weight: 900;
+    color: #cdcadb;
+}
+
+.multiText {
+    color:#b10aca;
+    text-transform: capitalize;
+
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 10%;
+}
+
+.games {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center ;
+    align-items: center;
+    padding: 0 10%;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.games ul li a{
+    color: #b10aca;
+}
